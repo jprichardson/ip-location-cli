@@ -1,6 +1,6 @@
 {
   "name": "ip-location-cli",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Command line utility to get an IP or hostname geo location.",
   "scripts": {
     "test": "standard"
