@@ -1,0 +1,46 @@
+{
+  "name": "ip-location-cli",
+  "version": "0.0.0",
+  "description": "Command line utility to get an IP or hostname geo location.",
+  "scripts": {
+    "test": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jprichardson/ip-location-cli.git"
+  },
+  "keywords": [
+    "cli-app",
+    "cli",
+    "ip",
+    "location",
+    "coordinates",
+    "latitude",
+    "longitude",
+    "host",
+    "name",
+    "networking",
+    "maxmind",
+    "geolocation"
+  ],
+  "author": "JP Richardson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jprichardson/ip-location-cli/issues"
+  },
+  "homepage": "https://github.com/jprichardson/ip-location-cli#readme",
+  "devDependencies": {
+    "standard": "5.x"
+  },
+  "preferGlobal": true,
+  "dependencies": {
+    "ip-location": "^1.0.0",
+    "meow": "^3.7.0"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "bin": {
+    "ip-location": "cli.js"
+  }
+}
